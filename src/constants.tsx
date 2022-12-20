@@ -9,6 +9,7 @@ export const networks = {
   testnet: "https://testnet.aptoslabs.com",
   devnet: devnetUrl,
   local: "http://localhost:8080",
+  hotcross: "http://164.90.169.128:8080",
 };
 
 export type NetworkName = keyof typeof networks;
